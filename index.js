@@ -10,6 +10,10 @@ app.get('/salutation/:name', (req, res) => {
     res.status(200).json({ message: `Happy saving ${req.params.name}.`});
 });
 
+app.get('/world', (req, res) => {
+    res.status(200).json({ message: `Hello World, happy saving!`});
+});
+
 app.get('*', (req, res) => {
   res.status(404).json({ message: 'Sorry, resource not found.' });
 });
