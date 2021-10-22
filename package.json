@@ -6,6 +6,9 @@
   "author": "Mike Mwanje <mwanjemike767@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
