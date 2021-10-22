@@ -11,7 +11,7 @@ app.get('/salutation/:name', (req, res) => {
 });
 
 app.get('/world', (req, res) => {
-    res.status(200).json({ message: `Hello World, happy saving!`});
+    res.status(200).json({ message: 'Hello World, happy saving!'});
 });
 
 app.get('*', (req, res) => {
